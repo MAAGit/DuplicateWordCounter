@@ -10,5 +10,14 @@
 #define runThroughFile_hpp
 
 #include <stdio.h>
+#include <iostream>
+#include <string>
+#include <fstream>
+#include <vector>
+#include <cctype>
+
+using namespace std;
+
+void runThroughFile(string fileName, int numOfCourses);
 
 #endif /* runThroughFile_hpp */
