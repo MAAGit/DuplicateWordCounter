@@ -21,7 +21,7 @@ int main(int argc, const char * argv[]) {
     cout << "Welcome To The Duplicate Word Counter\n" << "Please enter your file name: ";
     cin >> fileName;
     cout << "Looking for duplicate words in " + fileName + "\n\n";
-    cout << "Enter numbet of courses: ";
+    cout << "Enter number of courses: ";
     string courseNumInput;
     cin >> courseNumInput;
     total = stoi(courseNumInput);
